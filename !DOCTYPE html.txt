@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CESTECSOLUCIONES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .services, .bio, .contact {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 30%;
+            margin: 1.66%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CESTECSOLUCIONES</h1>
+    <p>Reparación y Mantenimiento de Electrodomésticos del Hogar</p>
+</header>
+
+<div class="container">
+    <section class="services">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Reparación de lavadoras</li>
+            <li>Reparación de neveras</li>
+            <li>Instalación de cámaras CCTV</li>
+        </ul>
+    </section>
+
+    <section class="bio">
+        <h2>Biografía</h2>
+        <p>Con 8 años de experiencia, ofrecemos servicios de reparación y mantenimiento de electrodomésticos del hogar, garantizando calidad y eficiencia.</p>
+    </section>
+
+    <section class="gallery">
+        <h2>Galería de Fotos</h2>
+        <!-- Inserta las imágenes aquí -->
+        <img src="imagen1.jpg" alt="Reparación de lavadora">
+        <img src="imagen2.jpg" alt="Reparación de nevera">
+        <img src="imagen3.jpg" alt="Instalación de cámara CCTV">
+    </section>
+
+    <section class="contact">
+        <h2>Contacto</h2>
+        <p>Teléfono: 3023662240</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 CESTECSOLUCIONES. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
